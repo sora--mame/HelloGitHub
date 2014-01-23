@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2F6B29187E7EE00035477C /* oh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F6B28187E7EE00035477C /* oh.png */; };
 		4CA7269F183498B300368104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA7269E183498B300368104 /* UIKit.framework */; };
 		4CA726A1183498B300368104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA726A0183498B300368104 /* Foundation.framework */; };
 		4CA726A3183498B300368104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA726A2183498B300368104 /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C2F6B28187E7EE00035477C /* oh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oh.png; sourceTree = SOURCE_ROOT; };
 		4CA7269B183498B300368104 /* HelloGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA7269E183498B300368104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CA726A0183498B300368104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +141,7 @@
 				4CA726AC183498B300368104 /* HelloGitHub-Prefix.pch */,
 				4CA726B0183498B300368104 /* Default.png */,
 				4CA726B2183498B300368104 /* Default@2x.png */,
+				4C2F6B28187E7EE00035477C /* oh.png */,
 				4CA726B4183498B300368104 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
@@ -240,6 +243,7 @@
 				4CA726B5183498B300368104 /* Default-568h@2x.png in Resources */,
 				4CA726B8183498B300368104 /* MainStoryboard_iPhone.storyboard in Resources */,
 				4CA726BB183498B300368104 /* MainStoryboard_iPad.storyboard in Resources */,
+				4C2F6B29187E7EE00035477C /* oh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				4CA726D8183498B400368104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CA726D9183498B400368104 /* Build configuration list for PBXNativeTarget "HelloGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				4CA726DB183498B400368104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
